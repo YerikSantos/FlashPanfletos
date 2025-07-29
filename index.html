@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfica Virtual - Orçamento Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Flash Panfletos</h1>
+            <p>Soluções impressas para você</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="hero">
+            <h2>FAÇA JÁ SEU ORÇAMENTO</h2>
+            <a href="#budget" class="cta-button">Solicitar Orçamento</a>
+        </section>
+        
+        <section class="products">
+            <div class="product-card">
+                <h3>PANFLETOS</h3>
+                <p>Divulgue seu negócio com materiais de alta qualidade</p>
+            </div>
+            
+            <div class="product-card">
+                <h3>CARTÕES DE VISITA</h3>
+                <p>Deixe uma ótima primeira impressão</p>
+            </div>
+            
+            <div class="product-card">
+                <h3>BLOCOS DE NOTA</h3>
+                <p>Personalizados com sua marca</p>
+            </div>
+            
+            <div class="product-card">
+                <h3>ENVELOPES</h3>
+                <p>Para correspondência profissional</p>
+            </div>
+            
+            <div class="product-card">
+                <h3>AGENDAS</h3>
+                <p>Organize seu ano com estilo</p>
+            </div>
+            
+            <div class="product-card">
+                <h3>PASTAS</h3>
+                <p>Apresente seus documentos com profissionalismo</p>
+            </div>
+        </section>
+        
+        <section id="budget" class="budget-form">
+            <h2>Solicite seu Orçamento</h2>
+            <form id="budgetRequestForm">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone">
+                </div>
+                
+                <div class="form-group">
+                    <label for="product">Produto de Interesse:</label>
+                    <select id="product" required>
+                        <option value="">Selecione...</option>
+                        <option value="panfletos">Panfletos</option>
+                        <option value="cartoes">Cartões de Visita</option>
+                        <option value="blocos">Blocos de Nota</option>
+                        <option value="envelopes">Envelopes</option>
+                        <option value="agendas">Agendas</option>
+                        <option value="pastas">Pastas</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="quantity">Quantidade aproximada:</label>
+                    <input type="number" id="quantity" min="1" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="details">Detalhes adicionais:</label>
+                    <textarea id="details"></textarea>
+                </div>
+                
+                <button type="submit" class="cta-button">Enviar Solicitação</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 FlashPanfletos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</html>
