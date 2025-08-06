@@ -18,9 +18,9 @@ O site permite que os usuários:
 ##  Estrutura do Projeto
 ```
 /
-├── index.html        # Estrutura da página
-├── style.css         # Estilização da interface
-└── site.js           # Funcionalidade do formulário e rolagem suave
+├── index.html        Estrutura da página
+├── style.css         Estilização da interface
+└── site.js           Funcionalidade do formulário e rolagem suave
 ```
 
 ##  Funcionalidades
